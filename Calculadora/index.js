@@ -26,3 +26,4 @@ function calcular (){
             document.getElementById('Resultado').innerHTML = "Insira um valor!"
         }
 }
+
