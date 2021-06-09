@@ -8,21 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <h2 id="Titulo">Conversor</h2>
+            <input class="botaoVoltar"
+            action="action"
+            onclick="window.history.go(-1); return false;"
+            type="submit"
+            value="Voltar"/>
+
+
    <form name="calculos" id="calculos">
     <div id="box">
-        <section class="sections" id="NumMaisProx">
+
+        
+        <section class="sections" id="NumMaisProx"
+        >
             <h2>Retorno número quebrado em inteiro mais próximo:</h2>
             <span class="legenda">Insira o número quebrado:</span>
             <input type="number" class="num" id="valor1">
             <input type="button" onclick= {numMaisProx()} class="btn" value="Verificar">
-            <input type="text" name="verificado" class="result" id="verify" value="">
+            <input type="text" name="verificado" class="resultPot" id="verify" value="">
     
-        </section>
+        
 
-        <section class="sections" id="potencia">
+        
             <h2>Potência:</h2>
             <span class="legenda">Primeiro Valor:</span>
-            <input type="number" class= "num" id="pot1">
+            <input type="text" name="verificado" class="resultPot" id="verify2" value="">
             <span class="legenda">Segundo Valor:</span>
             <input type="number" class="num" id="pot2">
             <input type="button" onclick= {calculoPotencia()} class="btn" value="Calcular">

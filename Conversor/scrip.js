@@ -3,14 +3,16 @@ function numMaisProx() {
     var numProx = Math.round (numCheio)
 
     document.getElementById ('verify').value = numProx
-}
+    document.getElementById ('verify2').value = numProx
 
+}
 function calculoPotencia(){
-    var pot1 = document.getElementById ('pot1').value
+    var pot1 = document.getElementById ('verify2').value
     var pot2 = document.getElementById ('pot2').value
 
     var resultado = Math.pow(pot1, pot2)
     document.getElementById ('res1').value = resultado
+
 }
 
 function raioCirculo (){

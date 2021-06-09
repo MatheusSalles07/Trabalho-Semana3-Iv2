@@ -20,8 +20,12 @@
 
 body {
     min-height: 100vh;
-    background: #150019;
+    background-color: #150019;
+    text-align: center;
+    color: white;
 }
+
+
 
 .navegacao {
     position: fixed;
@@ -68,5 +72,16 @@ body {
     color: black;
     border: hidden;
 }
+
+#imagem {
+
+    display: flex;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+
 
 
