@@ -104,7 +104,6 @@ body {
 }
 
 
-
 #calculos h2 {
     padding: 5px;
 }
@@ -144,3 +143,10 @@ body {
     width: 60px;
     background: rgb(14, 196, 141)
 }
+
+.resultPot {
+    padding: 5px;
+    width: 80px;
+    background: rgb(14, 196, 141);
+}
+
